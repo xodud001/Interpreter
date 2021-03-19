@@ -23,7 +23,6 @@ public class InstructionScanner {
         for(int i = 0 ; i < substring.length() ; i++)
             if( !(substring.charAt(i) >= '0' && substring.charAt(i) <= '9') )
                 return false;
-
         return true;
     }
 }
